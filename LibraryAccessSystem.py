@@ -20,6 +20,9 @@ class StudentMember(Member):
         else:
             print("There are no books to return")
 
+    def display_info(self):
+        print(self.books)
+
 
 library = StudentMember("Sai Teja","123")
 library.add_book()
